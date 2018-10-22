@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Stepwin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="No_connection">Pas de connection Internet</string>
+
+    <!--<string name="facebook_app_id">889734364529043</string>-->
+    <string name="facebook_app_id">1432827036836629</string>
+    <!--<string name="fb_login_protocol_scheme">fb889734364529043</string>-->
+
+    <!-- <string name="facebook_app_id">329451320837106</string>
+     <string name="fb_login_protocol_scheme">fb111960669240836</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="dialog_name">Patientez s\'il vous plait…</string>
+    <string name="app_version">Version de L\'app</string>
+    <string name="rate_title">Note &amp; Commenentaire</string>
+    <string name="rate_summary">Notez cette application sur Google Playstore et envoyez vos commentaires.</string>
+    <string name="contact_title">Contactez Nous</string>
+    <string name="contact_summary">Contactez notre équipe pour plus d\'aide.</string>
+    <string name="title_activity_history">Historique d\'activité</string>
+    <string name="rdate">Date</string>
+    <string name="step">Pas</string>
+    <string name="calories">Calories</string>
+    <string name="Network_error">Erreur de connection</string>
+    <string name="Retry">réessayer</string>
+    <string name="title_activity_history_detail">Historique d\'activité</string>
+    <string name="more_personal_details">Ajoutez des details personnels.</string>
+    <string name="weight">Poids (kg)</string>
+    <string name="height">Taille (cm)</string>
+    <string name="register">Inscrivez-vous</string>
+    <string name="home_page">Page d\'accueil</string>
+    <string name="share">Partager</string>
+    <string name="duration">Durée</string>
+    <string name="password">Mot de passe</string>
+    <string name="newhere">Vous etes nouveau?</string>
+    <string name="signup">Inscrivez-vous.</string>
+    <string name="or">Ou</string>
+    <string name="newaccount">Créez un nouveau compte</string>
+    <string name="enterpersonaldetails">Entrez vos données personnels.</string>
+    <string name="birthdate">Date de naissance</string>
+    <string name="sexe">Sexe</string>
+    <string name="fullname">Nom et prenom</string>
+    <string name="earncredits">Partagez et gagnez 10 $ points</string>
+    <string name="units">Unités</string>
+    <string name="personaldetails">Details personnels</string>
+    <string name="changepersonaldetails">Changer les details personnels.</string>
+    <string name="giftrewards">Boutique Cadeaux</string>
+    <string name="about">A propos</string>
+    <string name="kcal">Kcal</string>
+    <string name="km">Km</string>
+    <string name="points">$Points</string>
+    <string name="gifts">Vous n\'avez pas assez de points pour acheter ce cadeau</string>
+    <string name="giftsrequest">Vous voulez acheter ce cadeau ?</string>
+    <string name="yes">Oui</string>
+    <string name="cancel">Annuler</string>
+    <string-array name="countries">
+        <item>Tous les pays</item>
+    </string-array>
+    <string-array name="countriesentrie">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+    <string-array name="sexe">
+        <item>Male</item>
+        <item>Femelle</item>
+    </string-array>
+    <string-array name="sexevalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="units">
+        <item>Metrique (km)</item>
+        <item>Impérial (mi)</item>
+    </string-array>
+    <string-array name="sensitivity">
+        <item>Very sensitive</item>
+        <item>Sen</item>
+    </string-array>
+    <string-array name="unitsvalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="height">
+        <item>cm</item>
+        <item>ft, in</item>
+    </string-array>
+    <string-array name="weight">
+        <item>kg</item>
+        <item>lb</item>
+    </string-array>
+    <string-array name="distance">
+        <item>km</item>
+        <item>mi</item>
+    </string-array>
+    <string-array name="heightvalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="weightvalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="distancevalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="@string/height"
+        android:entries="@array/height"
+        android:entryValues="@array/heightvalues"
+        android:summary="%s"
+        android:key="height"/>
+    <ListPreference
+        android:title="@string/weight"
+        android:entries="@array/weight"
+        android:summary="%s"
+        android:entryValues="@array/weightvalues"
+        android:key="weight"/>
+    <ListPreference
+        android:title="@string/distance"
+        android:entries="@array/distance"
+        android:summary="%s"
+        android:entryValues="@array/distancevalues"
+        android:key="distance"/>
+</PreferenceScreen>

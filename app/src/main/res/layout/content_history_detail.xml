@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.stepwin.ui.HistoryDetailActivity"
+    tools:showIn="@layout/activity_history_detail">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="5">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.6">
+            <TextView
+                android:id="@+id/tvdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textColor="@color/TEXT_PRIMARY"
+                android:textSize="@dimen/text_size_18" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=":"
+                android:textStyle="bold"
+                android:textColor="@color/TEXT_PRIMARY"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvdate"
+                android:layout_marginLeft="10sp"
+                android:text="Date"
+                android:layout_weight="2.4"
+                android:textColor="@color/TEXT_SECONDARY"
+                android:textSize="@dimen/text_size_18" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="5">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.6">
+                    <TextView
+                        android:id="@+id/tvstep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Steps"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:textSize="@dimen/text_size_18" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text=":"
+                        android:textStyle="bold"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvStep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvstep"
+                    android:layout_marginLeft="10sp"
+                    android:text="Step"
+                    android:layout_weight="2.4"
+                    android:textColor="@color/TEXT_SECONDARY"
+                    android:textSize="@dimen/text_size_18" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="5">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.6">
+                    <TextView
+                        android:id="@+id/tvdistance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Distance"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:textSize="@dimen/text_size_18" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text=":"
+                        android:textStyle="bold"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvDistance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="Distance"
+                    android:layout_weight="2.4"
+                    android:textColor="@color/TEXT_SECONDARY"
+                    android:textSize="@dimen/text_size_18" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="5">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.6">
+                    <TextView
+                        android:id="@+id/tvcal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calories"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:textSize="@dimen/text_size_18" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text=":"
+                        android:textStyle="bold"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvCal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="Calories"
+                    android:layout_weight="2.4"
+                    android:textColor="@color/TEXT_SECONDARY"
+                    android:textSize="@dimen/text_size_18" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="5">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.6">
+                    <TextView
+                        android:id="@+id/tvpoints"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Points"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:textSize="@dimen/text_size_18" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text=":"
+                        android:textStyle="bold"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvPoints"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="Points"
+                    android:layout_weight="2.4"
+                    android:textColor="@color/TEXT_SECONDARY"
+                    android:textSize="@dimen/text_size_18" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="5">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.6">
+                    <TextView
+                        android:id="@+id/tvuc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unlock Count"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:textSize="@dimen/text_size_18" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text=":"
+                        android:textStyle="bold"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvUC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="Unlock Count"
+                    android:layout_weight="2.4"
+                    android:textColor="@color/TEXT_SECONDARY"
+                    android:textSize="@dimen/text_size_18" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="5">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.6">
+                    <TextView
+                        android:id="@+id/tvminute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Minute"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:textSize="@dimen/text_size_18" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text=":"
+                        android:textStyle="bold"
+                        android:textColor="@color/TEXT_PRIMARY"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/dataMinute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="Minute"
+                    android:layout_weight="2.4"
+                    android:textColor="@color/TEXT_SECONDARY"
+                    android:textSize="@dimen/text_size_18" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.stepwin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-library android:name="com.google.android.maps" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCIdSREjBkUu4ISSNrWhJtUQ0DgXaW2lxg" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="adenda_app_id"
+            android:value="WNQHQYUHJENN05M1XSKQ" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="adenda_app_key"
+            android:value="WPIMEYOU7CS45HOQBQ9UEBL0FXKLKSVPLKQF6VJT" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/action_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivityOne"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivityTwo"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HeightWeightActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PersonalDetailsSettingsActivity"
+            android:label="Personal Details"
+            android:screenOrientation="portrait"
+            android:theme="@style/Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".PedometerService"
+            android:enabled="true" />
+
+        <receiver android:name=".BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BootBroadcast"
+            android:enabled="true"
+            android:exported="true">
+            <action android:name="saved.steps.count" />
+        </receiver>
+
+        <activity
+            android:name=".UnitsPreferenceActivity"
+            android:label="Units"
+            android:screenOrientation="portrait"
+            android:theme="@style/Settings" />
+
+        <service android:name=".FileUploadService" />
+        <service android:name=".InfoChangeService" />
+
+        <activity
+            android:name=".GiftActivity"
+            android:label="@string/giftrewards"
+            android:screenOrientation="portrait"
+            android:theme="@style/Settings" />
+
+        <receiver android:name=".PhoneUnlockedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".alarm_services.AlarmService"
+            android:enabled="true" />
+        <service android:name=".unlock_counter.LockerService"
+            android:enabled="true"/>
+
+        <service android:name=".services.CounterService"
+            android:exported="true"/>
+
+        <receiver android:name=".unlock_counter.BroadReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAITrb0sbALNVbsaa4JvTFHq079lrCYPcyV_M1VjA" />
+
+        <!--
+         <receiver android:name=".alarm_services.AlarmBroadcastReceiver">
+             &lt;!&ndash; <intent-filter>
+                  <action android:name="android.intent.action.BOOT_COMPLETED" />
+              </intent-filter>&ndash;&gt;
+         </receiver>
+        -->
+
+        <activity
+            android:name=".ui.HistoryDetailActivity"
+            android:label="@string/title_activity_history_detail"
+            android:theme="@style/SplashScreen" />
+
+
+    </application>
+
+</manifest>

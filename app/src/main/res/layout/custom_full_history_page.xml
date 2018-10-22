@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/content_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8E8F91"
+        android:id="@+id/month"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:text=""
+        android:textColor="#8E8F91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stepsSum"
+        android:layout_alignParentRight="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="?android:selectableItemBackground"
+        android:scrollbars="none"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/month"
+        android:id="@+id/listview"/>
+</RelativeLayout>
+

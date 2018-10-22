@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Stepwin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="No_connection">No Internet Connection</string>
+
+    <!--<string name="facebook_app_id">889734364529043</string>-->
+    <string name="facebook_app_id">1432827036836629</string>
+    <!--<string name="fb_login_protocol_scheme">fb889734364529043</string>-->
+
+   <!-- <string name="facebook_app_id">329451320837106</string>
+    <string name="fb_login_protocol_scheme">fb111960669240836</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="dialog_name">Please wait…</string>
+    <string name="app_version">App Version</string>
+    <string name="rate_title">Rate &amp; Feedback</string>
+    <string name="rate_summary">Rate this app on the Google Playstore and send your feedback.</string>
+    <string name="contact_title">Contact Us</string>
+    <string name="contact_summary">Contact our team for more support.</string>
+    <string name="title_activity_history">Activity History</string>
+    <string name="rdate">Date</string>
+    <string name="step">Steps</string>
+    <string name="calories">Calories</string>
+    <string name="Network_error">Network Error</string>
+    <string name="Retry">Retry</string>
+    <string name="title_activity_history_detail">History Detail</string>
+    <string name="more_personal_details">Add a little more personal details.</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="height">Height (cm)</string>
+    <string name="register">Register</string>
+    <string name="home_page">Home page</string>
+    <string name="share">Share</string>
+    <string name="duration">Duration</string>
+    <string name="password">Password</string>
+    <string name="newhere">New here?</string>
+    <string name="signup">SignUp.</string>
+    <string name="or">Or</string>
+    <string name="newaccount">Start new Account</string>
+    <string name="enterpersonaldetails">Enter your personal details.</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="sexe">Sexe</string>
+    <string name="fullname">Fullname</string>
+    <string name="earncredits">Share and win 10$ points</string>
+    <string name="units">Units</string>
+    <string name="personaldetails">Personal Details</string>
+    <string name="changepersonaldetails">Change personal details.</string>
+    <string name="giftrewards">Gift Rewards</string>
+    <string name="about">About</string>
+    <string name="kcal">Kcal</string>
+    <string name="km">Km</string>
+    <string name="points">$Points</string>
+    <string name="distance">Distance</string>
+    <string name="gifts">You don\'t have enough points.</string>
+    <string name="giftsrequest">Do you wish to buy the gift?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="countries">
+        <item>All countries</item>
+    </string-array>
+    <string-array name="countriesentrie">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+    <string-array name="sexe">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="sexevalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="units">
+        <item>Metric (km)</item>
+        <item>Imperial (mi)</item>
+    </string-array>
+    <string-array name="sensitivity">
+        <item>Very sensitive</item>
+        <item>Sen</item>
+    </string-array>
+    <string-array name="unitsvalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="height">
+        <item>cm</item>
+        <item>ft, in</item>
+    </string-array>
+    <string-array name="weight">
+        <item>kg</item>
+        <item>lb</item>
+    </string-array>
+    <string-array name="distance">
+        <item>km</item>
+        <item>mi</item>
+    </string-array>
+    <string-array name="heightvalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="weightvalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="distancevalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

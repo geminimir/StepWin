@@ -1,0 +1,30 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General">
+
+        <PreferenceScreen
+            android:title="@string/units"
+            android:summary="cm, kg, km"
+            android:key="units" />
+        <PreferenceScreen
+            android:title="@string/personaldetails"
+            android:summary="@string/changepersonaldetails"
+            android:key="personal"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about">
+    <PreferenceScreen
+        android:title="@string/app_version"
+        android:summary="1.0"
+        />
+    <PreferenceScreen
+        android:title="@string/rate_title"
+        android:summary="@string/rate_summary"
+        android:key="rate"/>
+    <PreferenceScreen
+        android:title="@string/contact_title"
+        android:key="contact"
+        android:summary="@string/contact_summary"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>
